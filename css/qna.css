@@ -1,0 +1,123 @@
+@font-face {
+  font-family: "Pretendard-Regular";
+  src: url("https://fastly.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff") format("woff");
+  font-style: normal;
+}
+main section:nth-child(3) {
+  padding: 100px 64px 72px;
+}
+
+#qna-search {
+  margin-top: 64px;
+}
+
+.notice-wrap {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.list-wrap {
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+}
+.list-wrap.type2 {
+  gap: 0;
+}
+.list-head {
+  padding: 16px 24px;
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  background: #F4F5F8;
+  cursor: pointer;
+}
+.list-head.type2 {
+  background: #ffffff;
+  padding: 28px 40px;
+  border-bottom: 1px solid #D7DAE4;
+}
+.list-head.type2.open {
+  border-bottom: none;
+}
+.list-head.open .list-btn {
+  transform: rotate(180deg);
+}
+.list-body {
+  background: #F4F5F8;
+  padding: 48px 40px;
+  display: none;
+}
+.list-main {
+  display: flex;
+  gap: 40px;
+}
+.list-cate {
+  color: #0A48DB;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%;
+}
+.list-tit {
+  color: #0B152E;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%;
+  flex: 1;
+}
+.list-q {
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 120%;
+  color: #0A48DB;
+}
+.list-a {
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 100%;
+  color: #8A8EA0;
+}
+.list-btn {
+  color: #8A8EA0;
+  font-size: 32px;
+}
+.list-contents {
+  padding-left: 68px;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 180%;
+  color: #8A8EA0;
+  word-break: keep-all;
+}
+.list-contents.type2 {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  padding-left: 0;
+}
+.list-box {
+  background: #ffffff;
+  padding: 24px 30px;
+  border-radius: 4px;
+  margin-top: 40px;
+}
+.list-box.type2 {
+  background: none;
+  padding: 0;
+  border-radius: none;
+  margin-top: 24px;
+}
+.list-box.type2 ul {
+  margin-inline-start: 32px;
+}
+.list-box.type2 li {
+  list-style: disc;
+}
+
+#qna {
+  padding: 72px 104px;
+}

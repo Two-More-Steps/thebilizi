@@ -1,0 +1,117 @@
+@font-face {
+  font-family: "Pretendard-Regular";
+  src: url("https://fastly.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff") format("woff");
+  font-style: normal;
+}
+.company-head {
+  width: 100%;
+  aspect-ratio: 1728/567;
+  background-image: url(../img/company-bg.png);
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 64px;
+}
+.company-head-tit {
+  display: flex;
+  gap: 24px;
+  align-items: center;
+}
+.company-head-tit p {
+  color: #ffffff;
+  font-weight: 600;
+  line-height: 100%;
+  font-size: 40px;
+}
+.company-head-tit .logo {
+  width: 236px;
+  height: 40px;
+}
+.company-head-tit .logo img {
+  width: 100%;
+}
+.company-head-text {
+  font-size: 18px;
+  line-height: 180%;
+  color: #ffffff;
+}
+
+.card-wrap {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+.card.type1 {
+  width: 100%;
+  max-width: 1330px;
+  margin: 0 auto;
+  display: flex;
+  background: #F4F5F8;
+  border-radius: 12px;
+}
+.card.type1 .card-img {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  border-right: 1px solid #D7DAE4;
+}
+.card.type1 .card-img img {
+  width: 100%;
+}
+.card.type1 .card-contents {
+  padding: 0 80px;
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+  justify-content: center;
+}
+.card.type1 .card-head {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.card.type1 .card-num {
+  font-size: 40px;
+  color: #0A48DB;
+  font-weight: 700;
+  line-height: 1;
+}
+.card.type1 .card-body {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.card.type1 .card-tit {
+  color: #0B152E;
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 1;
+}
+.card.type1 .card-sub {
+  font-size: 20px;
+  color: #0B152E;
+  line-height: 120%;
+  font-weight: 700;
+}
+.card.type1 .card-text {
+  word-break: keep-all;
+  max-width: 316px;
+  font-size: 16px;
+  line-height: 180%;
+  color: #0B152E;
+}
+.card.type1.reverse .card-img {
+  border-right: none;
+  border-left: 1px solid #D7DAE4;
+}
+.card.type1.reverse .card-contents {
+  text-align: right;
+}
+.card.type1.reverse .card-body {
+  align-items: end;
+}
+.card.type1.reverse .card-text {
+  max-width: 250px;
+}

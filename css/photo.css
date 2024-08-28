@@ -1,0 +1,135 @@
+@font-face {
+  font-family: "Pretendard-Regular";
+  src: url("https://fastly.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff") format("woff");
+  font-style: normal;
+}
+.photo-item {
+  padding: 20px;
+  display: flex;
+  gap: 20px;
+  background: #F4F5F8;
+  border-radius: 4px;
+}
+.photo-item:hover {
+  background: #0A48DB;
+}
+.photo-item:hover .photo-tit, .photo-item:hover .photo-text {
+  color: #ffffff;
+}
+.photo-item:hover .photo-btn {
+  color: #0A48DB;
+  background: #ffffff;
+}
+.photo-item:hover .photo-footer-line {
+  background: #8A8EA0;
+}
+.photo-item .flex {
+  gap: 16px;
+}
+.photo-img {
+  aspect-ratio: 1/1;
+  width: 100%;
+  max-width: 320px;
+  border-radius: 5px;
+  overflow: hidden;
+}
+.photo-img img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.photo-contents {
+  flex: 1;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.photo-tit {
+  font-size: 32px;
+  color: #0B152E;
+  line-height: 120%;
+  font-weight: 700;
+}
+.photo-head {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.photo-btn {
+  width: -moz-fit-content;
+  width: fit-content;
+}
+.photo-footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+.photo-footer-line {
+  width: 100%;
+  height: 1px;
+  background: #8A8EA0;
+}
+.photo-text {
+  color: #8A8EA0;
+  font-size: 16px;
+}
+
+#photo-detail-header {
+  padding: 100px 64px;
+  background: #F4F5F8;
+  border-bottom: 1px solid #D7DAE4;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 64px;
+}
+#photo-detail-header .photo-text {
+  font-size: 20px;
+}
+#photo-detail-header .photo-footer-line {
+  width: 100%;
+  height: 1px;
+  background: #8A8EA0;
+}
+#photo-detail-header .photo-footer .flex {
+  gap: 16px;
+}
+#photo-detail-header .detail-tit {
+  color: #0B152E;
+  font-size: 80px;
+  font-weight: 700;
+  line-height: 100%;
+}
+#photo-detail-body {
+  padding: 96px 0;
+}
+#photo-detail-footer {
+  padding: 56px 0;
+  border-top: 1px solid #D7DAE4;
+}
+
+.photo-detail-wrap {
+  max-width: 1065px;
+  margin: 0 auto;
+}
+.photo-detail-wrap img {
+  width: 100%;
+}
+.photo-detail-text {
+  margin-top: 46px;
+  color: #8A8EA0;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 180%;
+  text-align: center;
+}
+.photo-detail-list {
+  max-width: 1065px;
+  margin: 0 auto;
+}
